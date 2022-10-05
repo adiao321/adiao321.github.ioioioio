@@ -25,7 +25,7 @@ after_script:
 branches:
     only:
         - main
- 
+
 env:
-    global:
+  global:
         - GH_REF: github.com/adiao321/adiao3210.git
