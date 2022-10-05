@@ -16,8 +16,8 @@ script:
 after_script:
     - cd ./public
     - git init
-    - git config user.name "adiao321"
-    - git config user.email "56079548@qq.com"
+    - git config user.name "adiao3210"
+    - git config user.email "2056079548@qq.com"
     - git add .
     - git commit -m "代码是自动部署的哈"
     - git push --force --quiet "https://${adiao3210}@${GH_REF}" main:gh-pages
