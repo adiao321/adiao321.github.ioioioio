@@ -16,7 +16,7 @@ script:
 after_script:
     - cd ./public
     - git init
-    - git config user.name "adiao3210"
+    - git config user.name "adiao321"
     - git config user.email "2056079548@qq.com"
     - git add .
     - git commit -m "代码是自动部署的哈"
@@ -28,4 +28,4 @@ branches:
 
 env:
   global:
-        - GH_REF: github.com/adiao321/adiao3210.git
+        - GH_REF: github.com/adiao321/adiao3210.github.io.git
